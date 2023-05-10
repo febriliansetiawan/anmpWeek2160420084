@@ -9,6 +9,9 @@ android {
     namespace 'com.example.anmpweek3kpc'
     compileSdk 33
 
+    buildFeatures {
+        viewBinding = true
+    }
     defaultConfig {
         applicationId "com.example.anmpweek3kpc"
         minSdk 24
