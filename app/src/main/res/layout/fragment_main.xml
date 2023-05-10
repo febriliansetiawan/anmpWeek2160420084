@@ -37,5 +37,14 @@
             android:text="Start"
             app:layout_constraintEnd_toEndOf="@+id/textInputName"
             app:layout_constraintTop_toBottomOf="@+id/textInputName" />
+
+        <Button
+            android:id="@+id/btnOption"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option"
+            app:layout_constraintStart_toStartOf="@+id/textInputName"
+            app:layout_constraintTop_toBottomOf="@+id/textInputName" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
